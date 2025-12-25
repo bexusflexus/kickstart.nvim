@@ -988,6 +988,7 @@ require('lazy').setup({
   { import = "custom.plugins.cpp" },
   { import = "custom.plugins.dap" },
   { import = "custom.plugins.navigation" },
+  { import = "custom.plugins.cmake" },  
     --
   -- For additional information with loading, sourcing and examples see `:help lazy.nvim-🔌-plugin-spec`
   -- Or use telescope!

@@ -11,6 +11,8 @@ return {
           show_parameter_hints = true,
         },
       }
+      -- ❗ DO NOT add telescope.load_extension("clangd_extensions")
+      --    (this plugin does NOT ship a telescope extension)
     end,
   },
 
